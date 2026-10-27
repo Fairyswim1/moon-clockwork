@@ -29,5 +29,5 @@ test('terminal guidance describes survival and offers restart; game seconds do n
   const l=campaign[0],s=forge(l,createBattle(),6).state,c=calibrate(l,s,12).state;
   assert.equal(c.turn,0);assert.equal(buy(c,0).state.turn,0);
   assert.equal(guidance(l,{...c,status:'lost'}).action,'restart');
-  assert.match(guidance(l,{...c,status:'won'}).body,/내구도/);
+  assert.match(guidance(l,{...c,status:'won'}).body,/체력/);
 });

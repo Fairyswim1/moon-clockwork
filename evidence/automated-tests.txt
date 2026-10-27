@@ -2,112 +2,112 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 4.9078
+  duration_ms: 4.6596
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 1.169
+  duration_ms: 0.7957
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.7715
+  duration_ms: 0.496
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 3.74
+  duration_ms: 2.9502
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.2975
+  duration_ms: 0.2303
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 0.7329
+  duration_ms: 0.8961
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.4243
+  duration_ms: 0.6227
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.4167
+  duration_ms: 0.6006
   ...
 # Subtest: all eight battles have winning strategies with independently enumerated math
 ok 9 - all eight battles have winning strategies with independently enumerated math
   ---
-  duration_ms: 6.4795
+  duration_ms: 7.9155
   ...
 # Subtest: ignoring defense really loses, terminal state cannot earn duplicate rewards
 ok 10 - ignoring defense really loses, terminal state cannot earn duplicate rewards
   ---
-  duration_ms: 0.5087
+  duration_ms: 0.4858
   ...
 # Subtest: forging gives meaningful strength choices, cannot refit after installation
 ok 11 - forging gives meaningful strength choices, cannot refit after installation
   ---
-  duration_ms: 0.2974
+  duration_ms: 0.29
   ...
 # Subtest: clock must be earliest positive meeting and charges only once
 ok 12 - clock must be earliest positive meeting and charges only once
   ---
-  duration_ms: 0.2372
+  duration_ms: 0.2166
   ...
 # Subtest: pulse damages all lanes, freezes survivors and cannot be reused
 ok 13 - pulse damages all lanes, freezes survivors and cannot be reused
   ---
-  duration_ms: 0.3262
+  duration_ms: 0.3251
   ...
 # Subtest: repair bounds and nearest-target attack
 ok 14 - repair bounds and nearest-target attack
   ---
-  duration_ms: 0.3642
+  duration_ms: 0.2903
   ...
 # Subtest: first-night instructions lead through actual legal actions to victory
 ok 15 - first-night instructions lead through actual legal actions to victory
   ---
-  duration_ms: 3.4114
+  duration_ms: 3.2904
   ...
 # Subtest: guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
 ok 16 - guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
   ---
-  duration_ms: 0.2415
+  duration_ms: 0.2476
   ...
 # Subtest: terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
 ok 17 - terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
   ---
-  duration_ms: 0.3175
+  duration_ms: 0.3302
   ...
 # Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
 ok 18 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
   ---
-  duration_ms: 9.1191
+  duration_ms: 8.8452
   ...
 # Subtest: every level has exactly one intended solution; brute-force enumeration verifies extrema
 ok 19 - every level has exactly one intended solution; brute-force enumeration verifies extrema
   ---
-  duration_ms: 1.0891
+  duration_ms: 1.1302
   ...
 # Subtest: factorization multiplies back and extrema of prime exponents agree
 ok 20 - factorization multiplies back and extrema of prime exponents agree
   ---
-  duration_ms: 1.1762
+  duration_ms: 1.1944
   ...
 # Subtest: important misconceptions and invalid values are rejected
 ok 21 - important misconceptions and invalid values are rejected
   ---
-  duration_ms: 0.339
+  duration_ms: 0.4028
   ...
 # Subtest: progress is bounded, robust to malformed storage and never loses a best star score
 ok 22 - progress is bounded, robust to malformed storage and never loses a best star score
   ---
-  duration_ms: 1.0895
+  duration_ms: 1.1538
   ...
 1..22
 # tests 22
@@ -117,4 +117,4 @@ ok 22 - progress is bounded, robust to malformed storage and never loses a best 
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 170.885
+# duration_ms 158.3047

@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T09:48:29.369Z",
-  "sourceHash": "f9a97272fd034cbf3cbe557b1f5e1ac109c5e779c514271fd74571ce5eba4a0c",
+  "checkedAt": "2026-10-27T10:25:21.276Z",
+  "sourceHash": "179eec64687788841d7e2cc4747779b0526f52f8a08917a7aabc96065721a110",
   "testsPassed": true,
   "errors": [],
   "browser": "passed"

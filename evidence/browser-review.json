@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T09:48:29.052Z",
-  "sourceHash": "f9a97272fd034cbf3cbe557b1f5e1ac109c5e779c514271fd74571ce5eba4a0c",
+  "checkedAt": "2026-10-27T10:25:20.883Z",
+  "sourceHash": "179eec64687788841d7e2cc4747779b0526f52f8a08917a7aabc96065721a110",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -12,9 +12,11 @@
     "evidence/assessment-report.png",
     "evidence/typography-assessment-mobile.png",
     "evidence/typography-desktop.png",
-    "evidence/typography-mobile.png"
+    "evidence/typography-mobile.png",
+    "evidence/plain-language-desktop.png",
+    "evidence/plain-language-mobile.png"
   ],
-  "scope": "Assessment revision. Previously verified gameplay engines unchanged; game entry links checked. Synthetic learner records only.",
+  "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
   "assessment": {
     "codes": [
       "9수01-02"
@@ -65,12 +67,35 @@
       "Math signs, coordinates and graph labels remain readable",
       "No console errors"
     ],
-    "actions": "Forged length 6, installed first turret, advanced a turn; assessment submitted successfully",
+    "actions": "Rechecked revision desktop and mobile at 390px; existing self-hosted typography unchanged",
     "screenshots": [
       "evidence/typography-assessment-mobile.png",
       "evidence/typography-desktop.png",
       "evidence/typography-mobile.png"
-    ]
+    ],
+    "checkedAt": "2026-10-27T10:25:20.978Z"
   },
-  "priorSourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79"
+  "priorSourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79",
+  "priorReview": {
+    "checkedAt": "2026-10-27T09:48:29.052Z",
+    "sourceHash": "f9a97272fd034cbf3cbe557b1f5e1ac109c5e779c514271fd74571ce5eba4a0c"
+  },
+  "revision": {
+    "status": "passed",
+    "viewportDesktop": [
+      1280,
+      713
+    ],
+    "viewportMobile": [
+      390,
+      844
+    ],
+    "consoleErrors": 0,
+    "checks": [
+      "Easy labels in welcome, guide, HUD, help and live charge feedback",
+      "Mobile guided action scrolls to input; forge accepted",
+      "No horizontal overflow at 390px",
+      "Existing rule tests and first-night win strategy retained"
+    ]
+  }
 }
