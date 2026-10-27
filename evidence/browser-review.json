@@ -1,28 +1,23 @@
 {
   "status": "passed",
-  "sourceHash": "6a0a947fbde7d5ed828447442046b3618833869aae5d934140169ed74d74256f",
+  "sourceHash": "a868d979aa91a9d627250fc45fb75228f25e1c29bda5159c7c295e79e4c0e0e7",
+  "reviewedAt": "2026-10-27T07:32:35.326Z",
+  "browser": "Codex in-app Chromium via cua_repl",
   "checks": [
-    "실제 브라우저에서 첫 밤 승리 별3, 마지막 보스전 14마리 처치/16턴/내구도8 승리",
-    "부품 5 자투리 거절 후 6 최대공약수 제작",
-    "0초 시계 충전 거절 후 12/72 최소공배수 충전",
-    "설치/재화 보상/세 번째 통로 설치/강화/광역 피해 실제 조작",
-    "무방비 진행 내구도0 패배와 재도전",
-    "새로고침 후 별6 저장 복원",
-    "390px에서 시계 충전과 폭발 조작, scrollWidth=clientWidth=376",
-    "생성 스프라이트 로딩, 모바일/데스크톱 화면 검토",
-    "콘솔 경고/오류 없음"
+    "First-night tutorial always opens chapter1 despite stored 3-star clears of chapters1 and8",
+    "Guide focuses cut input; invalid5 rejected then6 builds attack3",
+    "Guide installs lane1 and advances first shot; enemy HP1 displayed and explained",
+    "Second shot kills first enemy; guide focuses clock input;12 charges pulse without advancing time",
+    "Following only guidance actions wins at10 turns,5 kills,hp8/8,3stars",
+    "390x844: guide focuses offscreen input; forge and install return to next guide; clientWidth376 equals scrollWidth376",
+    "Guide hover contrast and mobile owl/text overlap fixed and visually reviewed",
+    "Console errors and warnings:0"
   ],
   "screenshots": [
-    "evidence/v2-battle-desktop.png",
-    "evidence/v2-mobile.png",
-    "evidence/v2-victory.png",
-    "evidence/v2-boss.png"
+    "evidence/onboarding-desktop.png",
+    "evidence/onboarding-mobile-welcome.png",
+    "evidence/onboarding-mobile-action.png",
+    "evidence/onboarding-victory.png"
   ],
-  "limitations": [
-    "로컬 검증, Vercel 실제 배포는 사용자 Import 후 별도 확인",
-    "브라우저 대표 첫/마지막 전투 검증, 나머지 전 챕터는 독립 수학 열거와 전투 전략 테스트",
-    "학생 재미/학습 효과 테스트 미실시"
-  ],
-  "checkedAt": "2026-10-27T06:25:59.206Z",
-  "browser": "Codex IAB real UI via cua_repl"
+  "scope": "Interaction onboarding added; battle rules unchanged. Full campaign remains covered by automated battle witnesses."
 }
