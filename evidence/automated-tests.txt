@@ -1,80 +1,120 @@
 TAP version 13
-# Subtest: all eight battles have winning strategies with independently enumerated math
-ok 1 - all eight battles have winning strategies with independently enumerated math
+# Subtest: every advertised skill has three varied tasks per form; source pages are present
+ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 7.0955
+  duration_ms: 4.0545
+  ...
+# Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
+ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
+  ---
+  duration_ms: 0.9844
+  ...
+# Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
+ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
+  ---
+  duration_ms: 0.5094
+  ...
+# Subtest: incorrect, assisted, and retry successes cannot produce independent credit
+ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
+  ---
+  duration_ms: 3.0899
+  ...
+# Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
+ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
+  ---
+  duration_ms: 0.2682
+  ...
+# Subtest: independent evidence does not automatically grade explanations or formal completion
+ok 6 - independent evidence does not automatically grade explanations or formal completion
+  ---
+  duration_ms: 0.7583
+  ...
+# Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
+ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
+  ---
+  duration_ms: 0.431
+  ...
+# Subtest: comparison keys agree with independent arithmetic, including negative square roots
+ok 8 - comparison keys agree with independent arithmetic, including negative square roots
+  ---
+  duration_ms: 0.4308
+  ...
+# Subtest: all eight battles have winning strategies with independently enumerated math
+ok 9 - all eight battles have winning strategies with independently enumerated math
+  ---
+  duration_ms: 6.5386
   ...
 # Subtest: ignoring defense really loses, terminal state cannot earn duplicate rewards
-ok 2 - ignoring defense really loses, terminal state cannot earn duplicate rewards
+ok 10 - ignoring defense really loses, terminal state cannot earn duplicate rewards
   ---
-  duration_ms: 0.5414
+  duration_ms: 0.5293
   ...
 # Subtest: forging gives meaningful strength choices, cannot refit after installation
-ok 3 - forging gives meaningful strength choices, cannot refit after installation
+ok 11 - forging gives meaningful strength choices, cannot refit after installation
   ---
-  duration_ms: 0.2904
+  duration_ms: 0.3204
   ...
 # Subtest: clock must be earliest positive meeting and charges only once
-ok 4 - clock must be earliest positive meeting and charges only once
+ok 12 - clock must be earliest positive meeting and charges only once
   ---
-  duration_ms: 0.2271
+  duration_ms: 0.2105
   ...
 # Subtest: pulse damages all lanes, freezes survivors and cannot be reused
-ok 5 - pulse damages all lanes, freezes survivors and cannot be reused
+ok 13 - pulse damages all lanes, freezes survivors and cannot be reused
   ---
-  duration_ms: 0.321
+  duration_ms: 0.3204
   ...
 # Subtest: repair bounds and nearest-target attack
-ok 6 - repair bounds and nearest-target attack
+ok 14 - repair bounds and nearest-target attack
   ---
-  duration_ms: 0.2843
+  duration_ms: 0.3025
   ...
 # Subtest: first-night instructions lead through actual legal actions to victory
-ok 7 - first-night instructions lead through actual legal actions to victory
+ok 15 - first-night instructions lead through actual legal actions to victory
   ---
-  duration_ms: 3.5625
+  duration_ms: 4.2652
   ...
 # Subtest: guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
-ok 8 - guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
+ok 16 - guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
   ---
-  duration_ms: 0.24
+  duration_ms: 0.411
   ...
 # Subtest: terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
-ok 9 - terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
+ok 17 - terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
   ---
-  duration_ms: 0.3145
+  duration_ms: 0.4849
   ...
 # Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
-ok 10 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+ok 18 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
   ---
-  duration_ms: 9.3935
+  duration_ms: 9.1909
   ...
 # Subtest: every level has exactly one intended solution; brute-force enumeration verifies extrema
-ok 11 - every level has exactly one intended solution; brute-force enumeration verifies extrema
+ok 19 - every level has exactly one intended solution; brute-force enumeration verifies extrema
   ---
-  duration_ms: 1.2266
+  duration_ms: 1.4162
   ...
 # Subtest: factorization multiplies back and extrema of prime exponents agree
-ok 12 - factorization multiplies back and extrema of prime exponents agree
+ok 20 - factorization multiplies back and extrema of prime exponents agree
   ---
-  duration_ms: 1.0162
+  duration_ms: 1.513
   ...
 # Subtest: important misconceptions and invalid values are rejected
-ok 13 - important misconceptions and invalid values are rejected
+ok 21 - important misconceptions and invalid values are rejected
   ---
-  duration_ms: 0.3652
+  duration_ms: 0.3962
   ...
 # Subtest: progress is bounded, robust to malformed storage and never loses a best star score
-ok 14 - progress is bounded, robust to malformed storage and never loses a best star score
+ok 22 - progress is bounded, robust to malformed storage and never loses a best star score
   ---
-  duration_ms: 1.1228
+  duration_ms: 1.1239
   ...
-1..14
-# tests 14
+1..22
+# tests 22
 # suites 0
-# pass 14
+# pass 22
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 143.2687
+# duration_ms 163.3742

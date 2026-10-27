@@ -1,23 +1,45 @@
 {
+  "schema": 1,
   "status": "passed",
-  "sourceHash": "a868d979aa91a9d627250fc45fb75228f25e1c29bda5159c7c295e79e4c0e0e7",
-  "reviewedAt": "2026-10-27T07:32:35.326Z",
-  "browser": "Codex in-app Chromium via cua_repl",
-  "checks": [
-    "First-night tutorial always opens chapter1 despite stored 3-star clears of chapters1 and8",
-    "Guide focuses cut input; invalid5 rejected then6 builds attack3",
-    "Guide installs lane1 and advances first shot; enemy HP1 displayed and explained",
-    "Second shot kills first enemy; guide focuses clock input;12 charges pulse without advancing time",
-    "Following only guidance actions wins at10 turns,5 kills,hp8/8,3stars",
-    "390x844: guide focuses offscreen input; forge and install return to next guide; clientWidth376 equals scrollWidth376",
-    "Guide hover contrast and mobile owl/text overlap fixed and visually reviewed",
-    "Console errors and warnings:0"
-  ],
+  "checkedAt": "2026-10-27T09:21:12.835Z",
+  "sourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
     "evidence/onboarding-mobile-action.png",
-    "evidence/onboarding-victory.png"
+    "evidence/onboarding-victory.png",
+    "evidence/assessment-mobile.png",
+    "evidence/assessment-report.png"
   ],
-  "scope": "Interaction onboarding added; battle rules unchanged. Full campaign remains covered by automated battle witnesses."
+  "scope": "Assessment revision. Previously verified gameplay engines unchanged; game entry links checked. Synthetic learner records only.",
+  "assessment": {
+    "codes": [
+      "9수01-02"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "width": 390,
+    "teacherReview": "Shared module: moon-clockwork explanation and review saved, reloaded and checked",
+    "exportEvidence": "All four final export previews parsed from live DOM: correct game, criteria, attempt history and downloadable Blob. Earlier moon JSON downloaded and independently parsed.",
+    "consoleErrors": 0
+  },
+  "checks": [
+    "False factorization with correct final number rejected",
+    "Hint and retry successes excluded from independent evidence",
+    "Coordinate order and plotting; reading and constructing graphs",
+    "Forest separates integer/rational and real extension",
+    "Prime factorization meaning, construction and exponents",
+    "Reload persistence and teacher review",
+    "Mobile 390px without horizontal overflow",
+    "Per-game JSON export preview and download link"
+  ],
+  "priorGameplayReview": {
+    "checkedAt": "2026-10-27T09:20:31.942Z",
+    "sourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79"
+  }
 }
