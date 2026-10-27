@@ -4,19 +4,26 @@
   "grade": 1,
   "unit": "1-3 최대공약수와 최소공배수",
   "category": "수와 연산",
-  "description": "금속 막대를 가장 긴 공통 부품으로 나누고, 반복되는 등불의 첫 만남을 찾아 잠든 시계공방을 깨우세요.",
+  "description": "최대공약수 부품으로 포탑을 만들고 최소공배수로 달빛 폭발을 충전하세요. 세 통로의 배치와 강화로 고장 벌레와 보스를 막는 전략 디펜스.",
   "tags": [
+    "전략 디펜스",
     "최대공약수",
     "최소공배수",
-    "소인수분해",
-    "퍼즐"
+    "보스전"
   ],
-  "duration": "10–15분",
+  "duration": "20–35분",
   "stageCount": 8,
   "assets": [
-    "assets/workshop.png"
+    "assets/workshop.png",
+    "assets/keeper.png",
+    "assets/turret.png",
+    "assets/rewards-atlas.png",
+    "assets/bug.png",
+    "assets/boss.png"
   ],
   "createdAt": "2026-10-27T05:15:00Z",
   "repository": "https://github.com/Fairyswim1/moon-clockwork",
-  "repositoryStatus": "created"
+  "repositoryStatus": "created",
+  "version": "2.0.0",
+  "deploymentTarget": "vercel"
 }

@@ -1,0 +1,16 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {campaign} from '../campaign.mjs';import {createBattle,forge,calibrate,buy,recycle,repair,pulse,step,score} from '../battle.mjs';
+const divisor=ns=>{let best=1;for(let d=1;d<=Math.min(...ns);d++)if(ns.every(n=>n%d===0))best=d;return best;};
+const multiple=ns=>{for(let t=1;t<=10000;t++)if(ns.every(n=>t%n===0))return t;throw Error('no multiple');};
+export function playWitness(l){let s=forge(l,createBattle(),divisor(l.rods)).state;s=calibrate(l,s,multiple(l.periods)).state;const actions=[];for(let k=0;k<70&&s.status==='playing';k++){
+ for(const lane of [...new Set(l.spawns.map(e=>e.lane))]){if(!s.towers[lane]&&s.coins>=2){s=buy(s,lane).state;actions.push(['buy',lane]);}}
+ if(s.enemies.some(e=>e.boss)&&s.pulseReady){s=pulse(l,s).state;actions.push(['pulse']);}
+ if(s.status!=='playing')break;
+ if(s.towers.every(Boolean)&&s.coins>=2){const lane=s.enemies.find(e=>e.boss)?.lane??l.spawns.at(-1).lane;if(s.towers[lane].rank<3){s=buy(s,lane).state;actions.push(['buy',lane]);}}
+ s=step(l,s).state;actions.push(['step']);assert.ok(s.coins>=0&&s.hp>=0&&s.hp<=8);
+ }return {state:s,actions};}
+test('all eight battles have winning strategies with independently enumerated math',()=>{for(const l of campaign){const {state:s}=playWitness(l);assert.equal(s.status,'won',l.title);assert.equal(score(l,s),3,l.title);}});
+test('ignoring defense really loses, terminal state cannot earn duplicate rewards',()=>{const l=campaign[7];let s=forge(l,createBattle(),1).state;for(let k=0;k<60&&s.status==='playing';k++)s=step(l,s).state;assert.equal(s.status,'lost');assert.equal(score(l,s),0);assert.equal(step(l,s).state,s);assert.equal(buy(s,0).ok,false);});
+test('forging gives meaningful strength choices, cannot refit after installation',()=>{const l=campaign[0],s=createBattle();assert.equal(forge(l,s,5).ok,false);assert.equal(forge(l,s,3).state.power,2);assert.equal(forge(l,s,6).state.power,3);const built=buy(forge(l,s,6).state,0).state;assert.equal(forge(l,built,1).ok,false);assert.equal(built.coins,2);assert.equal(recycle(built,0).state.coins,3);assert.equal(buy(buy(built,1).state,2).ok,false);});
+test('clock must be earliest positive meeting and charges only once',()=>{const l=campaign[0],s=createBattle();for(const t of [0,6,24,-12,1.5,NaN])assert.equal(calibrate(l,s,t).ok,false);const c=calibrate(l,s,12).state;assert.equal(calibrate(l,c,12).ok,false);assert.equal(pulse(l,c).ok,false);});
+test('pulse damages all lanes, freezes survivors and cannot be reused',()=>{const l=campaign[0];let s=calibrate(l,forge(l,createBattle(),6).state,12).state;s.enemies=[{id:0,lane:0,hp:4,pos:3},{id:1,lane:1,hp:10,pos:4}];s=pulse(l,s).state;assert.equal(s.kills,1);assert.equal(s.enemies[0].hp,4);assert.equal(s.enemies[0].frozen,1);assert.equal(s.coins,5);assert.equal(pulse(l,s).ok,false);s.turn=1;s=step(l,s).state;assert.equal(s.enemies[0].pos,4);});
+test('repair bounds and nearest-target attack',()=>{let s=forge(campaign[0],createBattle(),6).state;s.hp=7;assert.equal(repair(s).state.hp,8);s=buy(s,0).state;s.turn=1;s.enemies=[{id:1,lane:0,pos:5,hp:8},{id:2,lane:0,pos:2,hp:8}];s=step(campaign[0],s).state;assert.equal(s.enemies.find(x=>x.id===1).hp,8);assert.equal(s.enemies.find(x=>x.id===2).hp,5);});

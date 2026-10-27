@@ -1,35 +1,65 @@
 TAP version 13
-# Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
-ok 1 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+# Subtest: all eight battles have winning strategies with independently enumerated math
+ok 1 - all eight battles have winning strategies with independently enumerated math
   ---
-  duration_ms: 7.8682
+  duration_ms: 6.9087
+  ...
+# Subtest: ignoring defense really loses, terminal state cannot earn duplicate rewards
+ok 2 - ignoring defense really loses, terminal state cannot earn duplicate rewards
+  ---
+  duration_ms: 0.4746
+  ...
+# Subtest: forging gives meaningful strength choices, cannot refit after installation
+ok 3 - forging gives meaningful strength choices, cannot refit after installation
+  ---
+  duration_ms: 0.2827
+  ...
+# Subtest: clock must be earliest positive meeting and charges only once
+ok 4 - clock must be earliest positive meeting and charges only once
+  ---
+  duration_ms: 0.2031
+  ...
+# Subtest: pulse damages all lanes, freezes survivors and cannot be reused
+ok 5 - pulse damages all lanes, freezes survivors and cannot be reused
+  ---
+  duration_ms: 0.3069
+  ...
+# Subtest: repair bounds and nearest-target attack
+ok 6 - repair bounds and nearest-target attack
+  ---
+  duration_ms: 0.2788
+  ...
+# Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+ok 7 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+  ---
+  duration_ms: 9.4725
   ...
 # Subtest: every level has exactly one intended solution; brute-force enumeration verifies extrema
-ok 2 - every level has exactly one intended solution; brute-force enumeration verifies extrema
+ok 8 - every level has exactly one intended solution; brute-force enumeration verifies extrema
   ---
-  duration_ms: 1.1294
+  duration_ms: 1.1053
   ...
 # Subtest: factorization multiplies back and extrema of prime exponents agree
-ok 3 - factorization multiplies back and extrema of prime exponents agree
+ok 9 - factorization multiplies back and extrema of prime exponents agree
   ---
-  duration_ms: 1.1694
+  duration_ms: 1.2082
   ...
 # Subtest: important misconceptions and invalid values are rejected
-ok 4 - important misconceptions and invalid values are rejected
+ok 10 - important misconceptions and invalid values are rejected
   ---
-  duration_ms: 0.4409
+  duration_ms: 0.3619
   ...
 # Subtest: progress is bounded, robust to malformed storage and never loses a best star score
-ok 5 - progress is bounded, robust to malformed storage and never loses a best star score
+ok 11 - progress is bounded, robust to malformed storage and never loses a best star score
   ---
-  duration_ms: 1.3746
+  duration_ms: 1.1151
   ...
-1..5
-# tests 5
+1..11
+# tests 11
 # suites 0
-# pass 5
+# pass 11
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 114.3887
+# duration_ms 130.5686

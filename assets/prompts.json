@@ -7,5 +7,36 @@
       "transparent": false,
       "generatedAt": "2026-10-27T05:11:00Z"
     }
-  ]
+  ],
+  "upgrade": {
+    "tool": "built-in image_gen",
+    "createdAt": "2026-10-27T06:16:22.841Z",
+    "images": [
+      {
+        "file": "keeper.png",
+        "prompt": "Create ONE transparent-background game character sprite, centered, full body, no text. Friendly small clockwork owl engineer for a cozy moonlit brass clockmaker workshop game. Three-quarter view facing slightly right, stout polished copper and brass body, luminous teal glass eyes, tiny leather apron, small winding key, one wing holding a miniature wrench. Hand-painted high-end 2D indie game asset with clear silhouette, detailed bevels and warm highlights, softly shaded, charming but not childish, readable at 160 pixels. Entire owl and tool within the frame, generous transparent padding. No environment, no floor, no lettering, no borders. Transparent alpha background.",
+        "transparent": true
+      },
+      {
+        "file": "turret.png",
+        "prompt": "Create a transparent-background 2D game prop sprite of ONE lunar clockwork defense turret, full object centered with generous padding, no text or numbers. Side / slight three-quarter view, firing toward the RIGHT. Compact brass and copper pedestal with toothed gears, mounted long glass teal crystal barrel, crescent-moon sight, mint glowing core, walnut base. Cozy fantasy clockmaker workshop palette matching a brass owl engineer. Hand-painted polished indie strategy-game asset, high detail but strong legible silhouette at 100 pixels, warm golden edge lighting and deep teal shadows. No environment, no floor, no character, no muzzle flash, no UI. Entire object visible with truly transparent alpha background.",
+        "transparent": true
+      },
+      {
+        "file": "rewards-atlas.png",
+        "prompt": "A perfectly regular 2 by 2 game sprite atlas on a genuinely transparent alpha background, square canvas, four isolated original objects, NO text, NO labels, NO panel backgrounds or borders. Each object strictly inside its own equal square quadrant with at least 15 percent empty padding; centers at 25%/25%,75%/25%,25%/75%,75%/75%. Matching hand-painted cozy brass clockwork fantasy strategy game style, strong silhouettes readable at 80px, fine warm metal textures and teal glow. TOP LEFT: small purple rust-mite mechanical beetle enemy, side view facing LEFT, six stubby legs, mischievous eyes. TOP RIGHT: larger armored purple-and-iron rhinoceros beetle boss, side view facing LEFT, large horn, sturdy armored shell, glowing violet seams. BOTTOM LEFT: one golden brass cogwheel collectible, face-on with beautiful teeth and hole, warm highlights. BOTTOM RIGHT: one turquoise glowing moonstone crystal in a tiny gold collar, magical energy collectible. Absolutely separated objects with no overlap across quadrants, no cast floor shadow or ambient backdrop. Transparent background.",
+        "transparent": true
+      },
+      {
+        "file": "bug.png",
+        "prompt": "ONE isolated mechanical beetle enemy for a 2D lane defense game, full body centered, side view facing LEFT, transparent alpha background. Small purple clockwork rust bug with brass leg joints, six stubby legs, bright mischievous violet eyes, bronze antennae, plum shell. Beautiful hand-painted cozy fantasy game sprite, warm brass trim and clear cartoon silhouette readable at 64 pixels, clean polished high-end mobile game asset, not frightening, all antennae and feet contained with generous empty margins. No scenery, no floor, no text, no other objects.",
+        "transparent": true
+      },
+      {
+        "file": "boss.png",
+        "prompt": "Single isolated boss enemy sprite on transparent alpha background. A stout armored clockwork rhinoceros beetle, side view facing LEFT, massive bronze horn pointing left, layered plum purple iron shell, glowing violet seams, brass feet. Hand-painted cozy fantasy strategy game, cute mechanical enemy rather than realistic insect, premium illustrated game asset, strong readable silhouette. Entire horn and all feet fully visible, centered object with generous transparent margins. No background scene, no ground plane, no text, no decorative border, no other objects.",
+        "transparent": true
+      }
+    ]
+  }
 }

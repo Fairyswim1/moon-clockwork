@@ -1,1 +1,28 @@
-{"schema":1,"status":"passed","sourceHash":"2b7baec780ff580852ce97ec5c0ae0054300b7c7f6f5b9affe09affd83a92909","checkedAt":"2026-10-27T05:16:00Z","browser":"Codex in-app browser, real UI through cua_repl","checks":["입구 이미지 로드 및 시작","8개 의뢰를 실제 숫자 입력과 실행 버튼으로 모두 완료: 6,8,12,24,6,1,36,30","첫 막대에서 5 자투리 거절, 3 공약수지만 최대 아님 거절 후 6 복구","등불 0초 제외, 24초 늦은 공배수 거절, 12초 첫 만남 인정","되돌리기와 +1 실제 동작","소인수분해 지수 해설 성공 후 표시","전체 완료 축제 표시","새로고침 후 8/8 저장 복원","재도전 별2에서 별3 개선, 기존 최고점 유지","390x844 모바일에서 세 등불 의뢰 입력 및 오답 복구; scrollWidth=clientWidth=376","이미지 2개 모두 complete/naturalWidth 확인","콘솔 오류 및 경고 없음"],"screenshots":["evidence/desktop-gcd.png","evidence/desktop-lcm.png","evidence/completed.png","evidence/mobile.png"],"repairs":["첫 브라우저 검사에서 숫자 fill 뒤 change 이벤트 미반영 발견; input 이벤트와 제출 시 동기화 추가 후 전체 재검증"],"limitations":["로컬 브라우저 검증; 실제 배포 성공은 별도 Sites 결과로 확인","학생 대상 효과와 스크린리더 전체 사용성 미검증"]}
+{
+  "status": "passed",
+  "sourceHash": "6a0a947fbde7d5ed828447442046b3618833869aae5d934140169ed74d74256f",
+  "checks": [
+    "실제 브라우저에서 첫 밤 승리 별3, 마지막 보스전 14마리 처치/16턴/내구도8 승리",
+    "부품 5 자투리 거절 후 6 최대공약수 제작",
+    "0초 시계 충전 거절 후 12/72 최소공배수 충전",
+    "설치/재화 보상/세 번째 통로 설치/강화/광역 피해 실제 조작",
+    "무방비 진행 내구도0 패배와 재도전",
+    "새로고침 후 별6 저장 복원",
+    "390px에서 시계 충전과 폭발 조작, scrollWidth=clientWidth=376",
+    "생성 스프라이트 로딩, 모바일/데스크톱 화면 검토",
+    "콘솔 경고/오류 없음"
+  ],
+  "screenshots": [
+    "evidence/v2-battle-desktop.png",
+    "evidence/v2-mobile.png",
+    "evidence/v2-victory.png",
+    "evidence/v2-boss.png"
+  ],
+  "limitations": [
+    "로컬 검증, Vercel 실제 배포는 사용자 Import 후 별도 확인",
+    "브라우저 대표 첫/마지막 전투 검증, 나머지 전 챕터는 독립 수학 열거와 전투 전략 테스트",
+    "학생 재미/학습 효과 테스트 미실시"
+  ],
+  "checkedAt": "2026-10-27T06:25:59.206Z",
+  "browser": "Codex IAB real UI via cua_repl"
+}
