@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "file": "workshop.png",
+      "prompt": "Create a beautiful wide landscape illustration for an original middle-school math puzzle game called Moon Clockwork. No text, numbers, letters, logo, or UI. A whimsical handcrafted lunar clockmaker workshop at dusk: intricate brass gears and copper astronomical mechanisms surround a large warm oak workbench, two softly glowing mint-green crystal lanterns, a small friendly mechanical owl on the right, crescent moon seen through a tall arched window. Cozy paper-cut meets painterly storybook game art, fine material textures, warm honey amber and cream with restrained deep teal shadows, professional indie game key art, inviting and magical, readable large shapes, softly lit center and detailed edges. Landscape 3:2 composition; the scene must also crop attractively to a wide horizontal banner. This is a finished in-game background/cover asset, no mathematical diagrams because those will be rendered in code.",
+      "transparent": false,
+      "generatedAt": "2026-10-27T05:11:00Z"
+    }
+  ]
+}

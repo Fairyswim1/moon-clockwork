@@ -1,0 +1,35 @@
+TAP version 13
+# Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+ok 1 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+  ---
+  duration_ms: 7.8682
+  ...
+# Subtest: every level has exactly one intended solution; brute-force enumeration verifies extrema
+ok 2 - every level has exactly one intended solution; brute-force enumeration verifies extrema
+  ---
+  duration_ms: 1.1294
+  ...
+# Subtest: factorization multiplies back and extrema of prime exponents agree
+ok 3 - factorization multiplies back and extrema of prime exponents agree
+  ---
+  duration_ms: 1.1694
+  ...
+# Subtest: important misconceptions and invalid values are rejected
+ok 4 - important misconceptions and invalid values are rejected
+  ---
+  duration_ms: 0.4409
+  ...
+# Subtest: progress is bounded, robust to malformed storage and never loses a best star score
+ok 5 - progress is bounded, robust to malformed storage and never loses a best star score
+  ---
+  duration_ms: 1.3746
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 114.3887
