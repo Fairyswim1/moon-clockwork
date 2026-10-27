@@ -1,15 +1,18 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T09:21:12.835Z",
-  "sourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79",
+  "checkedAt": "2026-10-27T09:48:29.052Z",
+  "sourceHash": "f9a97272fd034cbf3cbe557b1f5e1ac109c5e779c514271fd74571ce5eba4a0c",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
     "evidence/onboarding-mobile-action.png",
     "evidence/onboarding-victory.png",
     "evidence/assessment-mobile.png",
-    "evidence/assessment-report.png"
+    "evidence/assessment-report.png",
+    "evidence/typography-assessment-mobile.png",
+    "evidence/typography-desktop.png",
+    "evidence/typography-mobile.png"
   ],
   "scope": "Assessment revision. Previously verified gameplay engines unchanged; game entry links checked. Synthetic learner records only.",
   "assessment": {
@@ -41,5 +44,33 @@
   "priorGameplayReview": {
     "checkedAt": "2026-10-27T09:20:31.942Z",
     "sourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79"
-  }
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "referenceGames": [
+      "forest",
+      "soinsu"
+    ],
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    },
+    "checks": [
+      "Computed font roles match reference game tokens",
+      "Self-hosted WOFF2 and original licenses included",
+      "Desktop and 390px screenshots inspected",
+      "No horizontal overflow or clipped input controls",
+      "Math signs, coordinates and graph labels remain readable",
+      "No console errors"
+    ],
+    "actions": "Forged length 6, installed first turret, advanced a turn; assessment submitted successfully",
+    "screenshots": [
+      "evidence/typography-assessment-mobile.png",
+      "evidence/typography-desktop.png",
+      "evidence/typography-mobile.png"
+    ]
+  },
+  "priorSourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79"
 }
