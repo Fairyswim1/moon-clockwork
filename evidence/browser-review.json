@@ -2,7 +2,7 @@
   "schema": 1,
   "status": "passed",
   "checkedAt": "2026-10-29T08:36:32.845Z",
-  "sourceHash": "bac9a91e30572de9c5ad0a274ae67dddb67528422d89bcdb1fe9d2f1716ecba3",
+  "sourceHash": "6494d987c60ef7d5bdbfc9dcd10822928c6aa157f39ec0ac93dfa3b72bac48d1",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -189,5 +189,11 @@
     "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
     "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
     "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:34.471Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
   }
 }
