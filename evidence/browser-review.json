@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T07:09:37.826Z",
-  "sourceHash": "1e66e1ddbd504956768b895bc5dcdf9399a48a62c94735da1afab039aafe5291",
+  "checkedAt": "2026-10-29T08:36:32.845Z",
+  "sourceHash": "bac9a91e30572de9c5ad0a274ae67dddb67528422d89bcdb1fe9d2f1716ecba3",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -18,7 +18,10 @@
     "evidence/home-mobile.png",
     "evidence/moon-clockwork-sound-mobile.png",
     "evidence/tutorial-desktop.png",
-    "evidence/tutorial-mobile.png"
+    "evidence/tutorial-mobile.png",
+    "evidence/moon-refresh-desktop.png",
+    "evidence/moon-refresh-mobile.png",
+    "evidence/moon-refresh-tutorial.png"
   ],
   "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
   "assessment": {
@@ -45,7 +48,8 @@
     "Prime factorization meaning, construction and exponents",
     "Reload persistence and teacher review",
     "Mobile 390px without horizontal overflow",
-    "Per-game JSON export preview and download link"
+    "Per-game JSON export preview and download link",
+    "2026-10-29: new generated themed controls, 12-round navigation, mobile widths and replay spotlight verified; newly added stages played to victory."
   ],
   "priorGameplayReview": {
     "checkedAt": "2026-10-27T09:20:31.942Z",
@@ -103,8 +107,8 @@
     ]
   },
   "previousReview": {
-    "sourceHash": "77d897c438f22cfe1248ba3c557031792c6e673b31e7586d4e0e44411ded18af",
-    "checkedAt": "2026-10-29T06:42:47.628Z"
+    "checkedAt": "2026-10-29T07:09:37.826Z",
+    "sourceHash": "1e66e1ddbd504956768b895bc5dcdf9399a48a62c94735da1afab039aafe5291"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:27.295Z",
@@ -155,5 +159,35 @@
       "Frost repeated click cannot skip temperature lesson"
     ],
     "browserConsoleErrors": 0
+  },
+  "qualityRefresh": {
+    "status": "passed",
+    "stages": 12,
+    "newStageUI": [
+      {
+        "stage": 9,
+        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 9마리 물리침 · 12차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
+      },
+      {
+        "stage": 10,
+        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 12마리 물리침 · 16차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
+      },
+      {
+        "stage": 11,
+        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 15마리 물리침 · 19차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
+      },
+      {
+        "stage": 12,
+        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 18마리 물리침 · 22차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n첫 밤 다시 도전다시 도전\n닫기"
+      }
+    ],
+    "desktop": 1280,
+    "mobile": 390,
+    "mobileScrollWidth": 376,
+    "generatedButtons": "control-frame-v2.png",
+    "roundMarkers": "round-marker-v2.png",
+    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
+    "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
+    "consoleErrors": 0
   }
 }

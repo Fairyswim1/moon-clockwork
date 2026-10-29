@@ -4,27 +4,29 @@
   "grade": 1,
   "unit": "1-3 최대공약수와 최소공배수",
   "category": "수와 연산",
-  "description": "자동 발사기로 세 통로의 벌레를 막아 공방을 지키세요. 쉬운 첫 밤 안내를 따라 부품을 만들고, 최대공약수와 최소공배수로 발사기와 전체 공격을 준비합니다.",
+  "description": "자동 발사기로 세 통로의 벌레를 막아 공방을 지키세요. 쉬운 첫 밤 안내를 따라 부품을 만들고, 최대공약수와 최소공배수로 발사기와 전체 공격을 준비합니다. 12번의 밤마다 침입 예고에 맞춰 배치와 강화 시점을 바꿔보세요.",
   "tags": [
     "공방 지키기",
     "최대공약수",
     "최소공배수",
     "큰 벌레 막기"
   ],
-  "duration": "20–35분",
-  "stageCount": 8,
+  "duration": "30–50분",
+  "stageCount": 12,
   "assets": [
     "assets/workshop.png",
     "assets/keeper.png",
     "assets/turret.png",
     "assets/rewards-atlas.png",
     "assets/bug.png",
-    "assets/boss.png"
+    "assets/boss.png",
+    "assets/control-frame-v2.png",
+    "assets/round-marker-v2.png"
   ],
   "createdAt": "2026-10-27T05:15:00Z",
   "repository": "https://github.com/Fairyswim1/moon-clockwork",
   "repositoryStatus": "created",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "deploymentTarget": "vercel",
   "tutorial": {
     "version": 1,
