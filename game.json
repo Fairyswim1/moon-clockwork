@@ -24,6 +24,15 @@
   "createdAt": "2026-10-27T05:15:00Z",
   "repository": "https://github.com/Fairyswim1/moon-clockwork",
   "repositoryStatus": "created",
-  "version": "2.2.3",
-  "deploymentTarget": "vercel"
+  "version": "2.2.4",
+  "deploymentTarget": "vercel",
+  "tutorial": {
+    "version": 1,
+    "firstVisit": true,
+    "replay": true,
+    "skippable": true,
+    "steps": 11,
+    "practiceProgress": "isolated-memory",
+    "style": "spotlight"
+  }
 }
