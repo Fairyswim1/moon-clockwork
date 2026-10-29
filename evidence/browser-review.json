@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T10:25:20.883Z",
-  "sourceHash": "179eec64687788841d7e2cc4747779b0526f52f8a08917a7aabc96065721a110",
+  "checkedAt": "2026-10-29T05:59:27.295Z",
+  "sourceHash": "a55091a06877dce0e1120f7924e0a267b62417f2698c4a31fc7dd0960390251f",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -14,7 +14,8 @@
     "evidence/typography-desktop.png",
     "evidence/typography-mobile.png",
     "evidence/plain-language-desktop.png",
-    "evidence/plain-language-mobile.png"
+    "evidence/plain-language-mobile.png",
+    "evidence/home-mobile.png"
   ],
   "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
   "assessment": {
@@ -97,5 +98,19 @@
       "No horizontal overflow at 390px",
       "Existing rule tests and first-night win strategy retained"
     ]
+  },
+  "previousReview": {
+    "sourceHash": "179eec64687788841d7e2cc4747779b0526f52f8a08917a7aabc96065721a110",
+    "checkedAt": "2026-10-27T10:25:20.883Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:27.295Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
   }
 }
