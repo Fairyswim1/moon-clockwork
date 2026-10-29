@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T05:59:27.295Z",
-  "sourceHash": "a55091a06877dce0e1120f7924e0a267b62417f2698c4a31fc7dd0960390251f",
+  "checkedAt": "2026-10-29T06:42:47.628Z",
+  "sourceHash": "77d897c438f22cfe1248ba3c557031792c6e673b31e7586d4e0e44411ded18af",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -15,7 +15,8 @@
     "evidence/typography-mobile.png",
     "evidence/plain-language-desktop.png",
     "evidence/plain-language-mobile.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/moon-clockwork-sound-mobile.png"
   ],
   "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
   "assessment": {
@@ -100,8 +101,8 @@
     ]
   },
   "previousReview": {
-    "sourceHash": "179eec64687788841d7e2cc4747779b0526f52f8a08917a7aabc96065721a110",
-    "checkedAt": "2026-10-27T10:25:20.883Z"
+    "sourceHash": "a55091a06877dce0e1120f7924e0a267b62417f2698c4a31fc7dd0960390251f",
+    "checkedAt": "2026-10-29T05:59:27.295Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:27.295Z",
@@ -112,5 +113,25 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "a55091a06877dce0e1120f7924e0a267b62417f2698c4a31fc7dd0960390251f"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "Stages 1 and 2 won without clock, three stars",
+      "Clock and pulse visible from stage 3"
+    ]
   }
 }

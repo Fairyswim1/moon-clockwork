@@ -17,8 +17,8 @@ test('first-night instructions lead through actual legal actions to victory',()=
     assert.ok(result.ok,`${g.phase}: ${result.message}`);s=result.state;
   }
   assert.equal(s.status,'won');assert.equal(s.hp,8);
-  for(const phase of ['forge','place','first-shot','observe','charge','pulse','expand'])assert.ok(phases.includes(phase),phase);
-  assert.equal(s.synced,true);assert.equal(s.pulseUsed,true);
+  for(const phase of ['forge','place','first-shot','observe','expand'])assert.ok(phases.includes(phase),phase);
+  assert.equal(s.synced,false);assert.equal(s.pulseUsed,false);
 });
 test('guidance never asks for an unavailable install before forging and re-teaches weak first-night parts',()=>{
   const l=campaign[0],initial=createBattle();assert.equal(guidance(l,initial,true).action,'forge');
