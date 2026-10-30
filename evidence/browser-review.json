@@ -1,30 +1,18 @@
 {
-  "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-30T06:17:08.065Z",
-  "sourceHash": "6db2d0f3a9e56efefdb5bc95ed09003c50062b4d3877d781cba5dd1cbe26fd04",
+  "checkedAt": "2026-10-30T07:51:38.589Z",
+  "sourceHash": "1f7cecc2e8ebadae58917eb369b29e91b9544af23dc8a34c001978d111916102",
   "screenshots": [
-    "evidence/onboarding-desktop.png",
-    "evidence/onboarding-mobile-welcome.png",
-    "evidence/onboarding-mobile-action.png",
-    "evidence/onboarding-victory.png",
-    "evidence/assessment-mobile.png",
-    "evidence/assessment-report.png",
-    "evidence/typography-assessment-mobile.png",
-    "evidence/typography-desktop.png",
-    "evidence/typography-mobile.png",
-    "evidence/plain-language-desktop.png",
-    "evidence/plain-language-mobile.png",
-    "evidence/home-mobile.png",
-    "evidence/moon-clockwork-sound-mobile.png",
-    "evidence/tutorial-desktop.png",
-    "evidence/tutorial-mobile.png",
-    "evidence/moon-refresh-desktop.png",
-    "evidence/moon-refresh-mobile.png",
-    "evidence/moon-refresh-tutorial.png",
-    "evidence/student-copy.png"
+    "evidence/math-moon-clockwork-desktop.png",
+    "evidence/math-moon-clockwork-mobile.png",
+    "evidence/math-moon-clockwork-assessment.png"
   ],
-  "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
+  "checks": [
+    "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
+    "No horizontal page or measured math-container overflow; no KaTeX error nodes.",
+    "Actual independent assessment submission correct; all available task layouts checked at 390px.",
+    "GCD 6 submitted, part built; factor help rendered powers."
+  ],
   "assessment": {
     "codes": [
       "9수01-02"
@@ -40,193 +28,30 @@
     "teacherReview": "Shared module: moon-clockwork explanation and review saved, reloaded and checked",
     "exportEvidence": "All four final export previews parsed from live DOM: correct game, criteria, attempt history and downloadable Blob. Earlier moon JSON downloaded and independently parsed.",
     "consoleErrors": 0,
-    "jsonUiRemoved": true
-  },
-  "checks": [
-    "False factorization with correct final number rejected",
-    "Hint and retry successes excluded from independent evidence",
-    "Coordinate order and plotting; reading and constructing graphs",
-    "Forest separates integer/rational and real extension",
-    "Prime factorization meaning, construction and exponents",
-    "Reload persistence and teacher review",
-    "Mobile 390px without horizontal overflow",
-    "Per-game JSON export preview and download link",
-    "2026-10-29: new generated themed controls, 12-round navigation, mobile widths and replay spotlight verified; newly added stages played to victory."
-  ],
-  "priorGameplayReview": {
-    "checkedAt": "2026-10-27T09:20:31.942Z",
-    "sourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79"
+    "jsonUiRemoved": true,
+    "details": "This revision: actual correct first-task submission and mobile task layouts. Shared radio UI keyboard, wrong response, hint, retry, reload and report tested in Ember Slide. Earlier per-standard grading/report coverage is preserved in browser-review-before-latex.json; grading and persistence algorithms unchanged."
   },
   "typography": {
     "status": "passed",
     "mobileWidth": 390,
-    "referenceGames": [
-      "forest",
-      "soinsu"
-    ],
     "fonts": {
       "title": "Jua",
       "display": "Do Hyeon",
-      "body": "Gowun Dodum"
+      "body": "Gowun Dodum",
+      "math": "KaTeX"
     },
     "checks": [
-      "Computed font roles match reference game tokens",
-      "Self-hosted WOFF2 and original licenses included",
-      "Desktop and 390px screenshots inspected",
-      "No horizontal overflow or clipped input controls",
-      "Math signs, coordinates and graph labels remain readable",
-      "No console errors"
-    ],
-    "actions": "Rechecked revision desktop and mobile at 390px; existing self-hosted typography unchanged",
-    "screenshots": [
-      "evidence/typography-assessment-mobile.png",
-      "evidence/typography-desktop.png",
-      "evidence/typography-mobile.png"
-    ],
-    "checkedAt": "2026-10-27T10:25:20.978Z"
-  },
-  "priorSourceHash": "9c32428cfdfca60cca47009a52bfc5dae29ba903399a2528d0b87dd4b4c1fe79",
-  "priorReview": {
-    "checkedAt": "2026-10-27T09:48:29.052Z",
-    "sourceHash": "f9a97272fd034cbf3cbe557b1f5e1ac109c5e779c514271fd74571ce5eba4a0c"
-  },
-  "revision": {
-    "status": "passed",
-    "viewportDesktop": [
-      1280,
-      713
-    ],
-    "viewportMobile": [
-      390,
-      844
-    ],
-    "consoleErrors": 0,
-    "checks": [
-      "Easy labels in welcome, guide, HUD, help and live charge feedback",
-      "Mobile guided action scrolls to input; forge accepted",
-      "No horizontal overflow at 390px",
-      "Existing rule tests and first-night win strategy retained"
+      "Local fonts and license",
+      "Math contrast, safe card/button space and fraction/power rendering inspected"
     ]
   },
   "previousReview": {
-    "checkedAt": "2026-10-29T07:09:37.826Z",
-    "sourceHash": "1e66e1ddbd504956768b895bc5dcdf9399a48a62c94735da1afab039aafe5291"
+    "sourceHash": "6db2d0f3a9e56efefdb5bc95ed09003c50062b4d3877d781cba5dd1cbe26fd04",
+    "checkedAt": "2026-10-30T06:17:08.065Z",
+    "file": "evidence/browser-review-before-latex.json"
   },
-  "homeNavigation": {
-    "checkedAt": "2026-10-29T05:59:27.295Z",
-    "status": "passed",
-    "destination": "https://math-game-arcade.vercel.app/",
-    "sameTabClickVerified": true,
-    "mobileWidth": 390,
-    "mobileLinkWithinViewport": true,
-    "screenshot": "evidence/home-mobile.png",
-    "scope": "Home navigation only; game and assessment logic unchanged"
-  },
-  "soundRevision": {
-    "status": "passed",
-    "browserOutputSignal": true,
-    "preferenceAfterReload": true,
-    "mute": true,
-    "mobileWidth": 390,
-    "overflowX": false,
-    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
-  },
-  "assessmentReuse": {
-    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
-    "previousSourceHash": "77d897c438f22cfe1248ba3c557031792c6e673b31e7586d4e0e44411ded18af"
-  },
-  "usabilityRevision": {
-    "status": "passed",
-    "checks": [
-      "Stages 1 and 2 won without clock, three stars",
-      "Clock and pulse visible from stage 3"
-    ]
-  },
-  "tutorialRevision": {
-    "status": "passed",
-    "firstVisit": true,
-    "actualActionsToFirstWin": true,
-    "skip": true,
-    "replay": true,
-    "noAutomaticReplayAfterSeen": true,
-    "desktopTargetUncovered": true,
-    "mobileWidth": 390,
-    "mobileTargetUncovered": true,
-    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
-    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
-    "negativeChecks": [
-      "Moon wrong part length does not advance",
-      "Cloud wrong representative value does not advance",
-      "Cloud Enter on quantity cannot craft before craft step",
-      "Frost repeated click cannot skip temperature lesson"
-    ],
-    "browserConsoleErrors": 0
-  },
-  "qualityRefresh": {
-    "status": "passed",
-    "stages": 12,
-    "newStageUI": [
-      {
-        "stage": 9,
-        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 9마리 물리침 · 12차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
-      },
-      {
-        "stage": 10,
-        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 12마리 물리침 · 16차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
-      },
-      {
-        "stage": 11,
-        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 15마리 물리침 · 19차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n다음 밤 →다시 도전\n닫기"
-      },
-      {
-        "stage": 12,
-        "result": "공방 지키기 성공\n\n오늘 밤의 공방을 지켰어요!\n★★★\n\n체력 8/8 · 18마리 물리침 · 22차례\n\n별 1: 방어 성공\n별 +1: 체력 6 이상\n별 +1: 최대공약수 부품 + 최소공배수 충전\n\n첫 밤 다시 도전다시 도전\n닫기"
-      }
-    ],
-    "desktop": 1280,
-    "mobile": 390,
-    "mobileScrollWidth": 376,
-    "generatedButtons": "control-frame-v2.png",
-    "roundMarkers": "round-marker-v2.png",
-    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
-    "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
-    "consoleErrors": 0
-  },
-  "provenanceRemoval": {
-    "checkedAt": "2026-10-29T08:54:34.471Z",
-    "status": "passed",
-    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
-    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
-  },
-  "previousCopyReview": {
-    "checkedAt": "2026-10-29T08:36:32.845Z",
-    "sourceHash": "6494d987c60ef7d5bdbfc9dcd10822928c6aa157f39ec0ac93dfa3b72bac48d1"
-  },
-  "studentCopyRevision": {
-    "reportOpened": true,
-    "proceduralExplanationRemoved": true,
-    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
-  },
-  "previousJsonUiReview": {
-    "checkedAt": "2026-10-30T01:16:35.946Z",
-    "sourceHash": "b8c209eb14e7ce97f4051390734ad1d529131885846cf9cf8c4cd9ea26d83d25",
-    "export": true
-  },
-  "jsonUiRemoval": {
-    "status": "passed",
-    "checkedAt": "2026-10-30T06:16:46.888Z",
-    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
-    "report": {
-      "id": "moon-clockwork",
-      "report": true,
-      "noJson": true,
-      "exportButtons": 0,
-      "errors": []
-    },
-    "commonSubmission": {
-      "submitted": true,
-      "result": "내 답: 방정식",
-      "persistedAfterReload": true
-    }
-  }
+  "limitations": [
+    "This revision checks all starting layouts, representative play and the existing complete engine test suite; it does not replay every stage to victory.",
+    "No student learning-effect study."
+  ]
 }

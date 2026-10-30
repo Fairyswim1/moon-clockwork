@@ -1,0 +1,195 @@
+TAP version 13
+# Subtest: every advertised skill has three varied tasks per form; source pages are present
+ok 1 - every advertised skill has three varied tasks per form; source pages are present
+  ---
+  duration_ms: 6.1186
+  ...
+# Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
+ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
+  ---
+  duration_ms: 1.4567
+  ...
+# Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
+ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
+  ---
+  duration_ms: 0.8557
+  ...
+# Subtest: incorrect, assisted, and retry successes cannot produce independent credit
+ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
+  ---
+  duration_ms: 3.4581
+  ...
+# Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
+ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
+  ---
+  duration_ms: 0.3712
+  ...
+# Subtest: independent evidence does not automatically grade explanations or formal completion
+ok 6 - independent evidence does not automatically grade explanations or formal completion
+  ---
+  duration_ms: 1.0544
+  ...
+# Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
+ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
+  ---
+  duration_ms: 0.7113
+  ...
+# Subtest: comparison keys agree with independent arithmetic, including negative square roots
+ok 8 - comparison keys agree with independent arithmetic, including negative square roots
+  ---
+  duration_ms: 0.4837
+  ...
+# Subtest: all twelve battles have winning strategies with independently enumerated math
+ok 9 - all twelve battles have winning strategies with independently enumerated math
+  ---
+  duration_ms: 13.9548
+  ...
+# Subtest: ignoring defense really loses, terminal state cannot earn duplicate rewards
+ok 10 - ignoring defense really loses, terminal state cannot earn duplicate rewards
+  ---
+  duration_ms: 0.4954
+  ...
+# Subtest: forging gives meaningful strength choices, cannot refit after installation
+ok 11 - forging gives meaningful strength choices, cannot refit after installation
+  ---
+  duration_ms: 0.2804
+  ...
+# Subtest: clock must be earliest positive meeting and charges only once
+ok 12 - clock must be earliest positive meeting and charges only once
+  ---
+  duration_ms: 0.2069
+  ...
+# Subtest: pulse damages all lanes, freezes survivors and cannot be reused
+ok 13 - pulse damages all lanes, freezes survivors and cannot be reused
+  ---
+  duration_ms: 0.4094
+  ...
+# Subtest: repair bounds and nearest-target attack
+ok 14 - repair bounds and nearest-target attack
+  ---
+  duration_ms: 0.2954
+  ...
+# Subtest: first two missions win with full stars without hidden clock controls
+ok 15 - first two missions win with full stars without hidden clock controls
+  ---
+  duration_ms: 1.489
+  ...
+# Subtest: late battles punish early install-only strategy even with optimal parts and one pulse
+ok 16 - late battles punish early install-only strategy even with optimal parts and one pulse
+  ---
+  duration_ms: 4.6211
+  ...
+# Subtest: first-night instructions lead through actual legal actions to victory
+ok 17 - first-night instructions lead through actual legal actions to victory
+  ---
+  duration_ms: 4.2034
+  ...
+# Subtest: guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
+ok 18 - guidance never asks for an unavailable install before forging and re-teaches weak first-night parts
+  ---
+  duration_ms: 0.3806
+  ...
+# Subtest: terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
+ok 19 - terminal guidance describes survival and offers restart; game seconds do not silently advance battle turns
+  ---
+  duration_ms: 0.6107
+  ...
+# Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
+ok 20 - Fractions bind only their denominator, preserving rational coefficients and signs
+  ---
+  duration_ms: 1.1145
+  ...
+# Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+ok 21 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
+  ---
+  duration_ms: 13.3301
+  ...
+# Subtest: Text and unsafe input are escaped; no HTML commands are accepted
+ok 22 - Text and unsafe input are escaped; no HTML commands are accepted
+  ---
+  duration_ms: 0.3468
+  ...
+# Subtest: Every actual prompt, hint and choice preserves its text across all three variants
+ok 23 - Every actual prompt, hint and choice preserves its text across all three variants
+  ---
+  duration_ms: 6.2439
+  ...
+# Subtest: Blank symbols and incomplete learner notation stay readable
+ok 24 - Blank symbols and incomplete learner notation stay readable
+  ---
+  duration_ms: 0.8627
+  ...
+# Subtest: Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+ok 25 - Euclidean gcd agrees with independently enumerated divisors for every pair 1..80
+  ---
+  duration_ms: 10.2898
+  ...
+# Subtest: every level has exactly one intended solution; brute-force enumeration verifies extrema
+ok 26 - every level has exactly one intended solution; brute-force enumeration verifies extrema
+  ---
+  duration_ms: 1.1156
+  ...
+# Subtest: factorization multiplies back and extrema of prime exponents agree
+ok 27 - factorization multiplies back and extrema of prime exponents agree
+  ---
+  duration_ms: 1.2447
+  ...
+# Subtest: important misconceptions and invalid values are rejected
+ok 28 - important misconceptions and invalid values are rejected
+  ---
+  duration_ms: 0.3826
+  ...
+# Subtest: progress is bounded, robust to malformed storage and never loses a best star score
+ok 29 - progress is bounded, robust to malformed storage and never loses a best star score
+  ---
+  duration_ms: 1.1661
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 30 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.2274
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 31 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 81.5296
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 32 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.6799
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 33 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.3587
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 34 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.4112
+  ...
+# Subtest: first visit uses isolated practice state and leaves existing progress untouched
+ok 35 - first visit uses isolated practice state and leaves existing progress untouched
+  ---
+  duration_ms: 3.2494
+  ...
+# Subtest: skip and replay are per game and replay cannot overwrite learning records
+ok 36 - skip and replay are per game and replay cannot overwrite learning records
+  ---
+  duration_ms: 0.4686
+  ...
+# Subtest: storage denied can still skip without a redirect loop
+ok 37 - storage denied can still skip without a redirect loop
+  ---
+  duration_ms: 0.4369
+  ...
+1..37
+# tests 37
+# suites 0
+# pass 37
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 256.9551
