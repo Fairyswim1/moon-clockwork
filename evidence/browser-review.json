@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T08:36:32.845Z",
-  "sourceHash": "6494d987c60ef7d5bdbfc9dcd10822928c6aa157f39ec0ac93dfa3b72bac48d1",
+  "checkedAt": "2026-10-30T01:16:35.946Z",
+  "sourceHash": "b8c209eb14e7ce97f4051390734ad1d529131885846cf9cf8c4cd9ea26d83d25",
   "screenshots": [
     "evidence/onboarding-desktop.png",
     "evidence/onboarding-mobile-welcome.png",
@@ -21,7 +21,8 @@
     "evidence/tutorial-mobile.png",
     "evidence/moon-refresh-desktop.png",
     "evidence/moon-refresh-mobile.png",
-    "evidence/moon-refresh-tutorial.png"
+    "evidence/moon-refresh-tutorial.png",
+    "evidence/student-copy.png"
   ],
   "scope": "Plain-language copy revision. Same battle and standalone assessment rules. Browser: forge 6, install lane 1, advance, calibrate 12, help, mobile guided forge.",
   "assessment": {
@@ -195,5 +196,14 @@
     "status": "passed",
     "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
     "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:32.845Z",
+    "sourceHash": "6494d987c60ef7d5bdbfc9dcd10822928c6aa157f39ec0ac93dfa3b72bac48d1"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
