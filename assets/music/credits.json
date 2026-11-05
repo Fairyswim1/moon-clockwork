@@ -1,0 +1,42 @@
+{
+  "title": "달의 작은 태엽",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "달의 작은 태엽",
+    "root": 57,
+    "bpm": 72,
+    "color": "celesta",
+    "minor": true,
+    "motif": [
+      0,
+      7,
+      12,
+      10,
+      7,
+      3,
+      5,
+      7
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 72,
+      "seconds": 53.333333333333336,
+      "peak": 0.26703448687284553,
+      "rms": 0.05995368697529806,
+      "seamDelta": 0.005220823003630165,
+      "sha256": "f40e35b6e2c7c26afe7ba7355847967a87c248153286de46be8261a1497e8f12"
+    },
+    {
+      "mode": "energy",
+      "bpm": 96,
+      "seconds": 40.0,
+      "peak": 0.3331558256146192,
+      "rms": 0.08377274760231761,
+      "seamDelta": 0.003516126942673531,
+      "sha256": "9f21a48c455c91cb0e8c530c99653427cfb3c0b31866f6d578bdf01bc0dc1c2f"
+    }
+  ]
+}
