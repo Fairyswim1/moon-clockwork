@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:38.589Z",
-  "sourceHash": "98c07479861ef1f95f97d4884c2bc7bc21f00ed59d1d7ac51c1c089f6c942dcd",
+  "sourceHash": "cd03dc5146e52d7d7d3091199456e578a2b17d00a45e88083a17480c165cc183",
   "screenshots": [
     "evidence/math-moon-clockwork-desktop.png",
     "evidence/math-moon-clockwork-mobile.png",
-    "evidence/math-moon-clockwork-assessment.png"
+    "evidence/math-moon-clockwork-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -74,5 +75,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:55.039Z",
+    "id": "moon-clockwork",
+    "firstVisitOff": true,
+    "startedStep": "공방을 지키면 성공!",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "98c07479861ef1f95f97d4884c2bc7bc21f00ed59d1d7ac51c1c089f6c942dcd",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
